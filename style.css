@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FEFAE0;
+    font-size: 16px;
+}
+.nav{
+    padding: 5px 15px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F4EF;
+    font-size: 1.25rem;
+}
+.nav *{
+    padding: 0px 5px;
+}
+.logo img{
+    height: 30px;
+}
+
+.loginbtn img{
+    height: 20px;
+    padding: 0px 0px;
+}
+.loginbtn span{
+    padding-left: 0px;
+}
+.signupbtn{
+    font-size: 1.25rem;
+    background-color: #FA7335;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: none;    
+
+}
+
+.image1 img{
+    width: 100%;
+}
+.available{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box1{
+    width: 80%;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding: 0 5px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: space-around;
+    align-items:end;
+    gap: 10px;
+    background-color: #15616D;
+}
+.box1 *{
+    width: 80%;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.availability{
+    background-color: #FA7335;
+    color: #ffffff;
+}
+.box1 p{
+    color: #ffffff;
+}
+
